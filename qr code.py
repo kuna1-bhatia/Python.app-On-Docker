@@ -11,4 +11,5 @@ img.save(file_path)
 
 img.show()
 
+
 print("QR CODE HAS DONE")
