@@ -10,6 +10,7 @@ python-docker/
 ├── requirements.txt   (optional)
 └── README.md
 
+
 🛠 Prerequisites
 
 • Make sure you have the following installed:
@@ -19,6 +20,7 @@ python-docker/
 • Python (optional, only for local testing)
 
  • Linux / WSL / macOS / Windows
+
 
 🐍 Pyhtonfile
 
@@ -37,6 +39,7 @@ img.show()
 
 print("QR CODE HAS DONE")
 
+
 📄 Dockerfile
 
 FROM python:3.12-slim
@@ -48,6 +51,7 @@ COPY src/main.python /app/main.python
 RUN pythonc src/main.python
 
 CMD ["python","main"]
+
 
 🚀 How to Build Docker Image
 
