@@ -39,15 +39,15 @@ print("QR CODE HAS DONE")
 
 📄 Dockerfile
 
-FROM python:3.10-slim
+FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY . .
+COPY src/main.python /app/main.python
 
-RUN pip install flask
+RUN pythonc src/main.python
 
-CMD ["python", "app.py"]
+CMD ["python","main"]
 
 🚀 How to Build Docker Image
 
