@@ -1,14 +1,9 @@
-import qrcode 
+FROM python:3.12-slim
 
-url = input("enter your URL = ").strip()
-file_path = "C:\\Users\\acer\\OneDrive\\Desktop\\qrcode.png"
+WORKDIR /app
 
-qr = qrcode.QRCode()
-qr.add_data(url)
+COPY src/main.python /app/main.python
 
-img = qr.make_image()
-img.save(file_path)
+RUN pythonc src/main.python
 
-img.show()
-
-print("QR CODE HAS DONE")
+CMD ["python","main"]
