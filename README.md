@@ -2,7 +2,7 @@
 A beginner-friendly project showing how to containerize a simple Python application using Docker.
 Learn how to write a Dockerfile, build a Docker image, and run your Python app inside a container. �
 
-● GitHub
+GitHub
 
 
 🧾 Table of Contents
