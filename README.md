@@ -1,7 +1,8 @@
 🐍 Python App On Docker
 A beginner-friendly project showing how to containerize a simple Python application using Docker.
 Learn how to write a Dockerfile, build a Docker image, and run your Python app inside a container. �
-GitHub
+
+● GitHub
 
 
 🧾 Table of Contents
@@ -77,7 +78,7 @@ RUN pythonc src/main.python
 CMD ["python","main"]
 
 
-What it does:
+● What it does:
 
 Uses the base image python:3.12-slim
 
