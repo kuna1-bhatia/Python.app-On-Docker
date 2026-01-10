@@ -2,8 +2,6 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY src/main.python /app/main.python
+COPY SRC/qr code.py /app/qr code.py
 
-RUN pythonc src/main.python
-
-CMD ["python","main"]
+CMD ["python","qr code.py"]
